@@ -8,7 +8,7 @@ class Solution {
         }
         StringBuilder a =new StringBuilder (reversed);
         a.reverse();
-        return new String (a.substring(1,a.length()));
+        return a.toString().trim();
         
     }
 }
